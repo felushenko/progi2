@@ -1,0 +1,41 @@
+@import "_null_style";
+@import "_variable";
+@import "_fonts";
+@import "_animation";
+
+body {}
+
+.wrapper {
+    min-width: 100%;
+    overflow: hidden;
+    display:flex;
+    flex-direction:column;
+   
+}
+
+[class*="__container"] {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+// --------------------------------------------
+.logo {max-width: 100%;}
+
+.lock {overflow: hidden;}
+
+// --------------------------------------------
+
+
+
+
+// --------------------------------------------
+
+// --------------------------------------------
+main {
+    flex: 1 1 auto;
+}
+// --------------------------------------------
+.footer {
+    line-height: 2;
+}
+
